@@ -1,12 +1,10 @@
-import Personalities, { PersonalitiesProps } from '@/components/Personalities'
-import { ApiPersonalitiesProps } from '@/utils/api'
-import { useEffect, useState } from 'react'
+import Personalities from "@/components/Personalities";
 
 export default function Home() {
 
   return (
     <section>
-      <h1>Hello, Word!</h1>
+      <Personalities />
     </section>
   )
 }

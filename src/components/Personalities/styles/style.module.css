@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "title-font-robotoslab";
+  src: url(../../../../public/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+  font-family: "description-font-inter";
+  src: url(../../../../public/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.Biography {
+  margin-bottom: 3em;
+  margin-top: 2em;
+  max-width: 50%;
+}
+
+.Title {
+  font-family: title-font-robotoslab;
+  font-size: 25px;
+}
+
+.Description{
+  font-family: description-font-inter;
+  text-align: justify;
+}
